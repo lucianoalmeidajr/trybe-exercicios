@@ -48,17 +48,15 @@ else {
 
 const angulo1 = 60;
 const angulo2 = 60;
-const angulo3 = -60;
+const angulo3 = 60;
 
-if (angulo1 + angulo2 + angulo3 == 180) {
+if (angulo1 < 0 || angulo2 < 0 || angulo3 < 0) {
+  console.log('Valor inválido');
+}
+
+else if (angulo1 + angulo2 + angulo3 === 180) {
   console.log('True');
 }
 else if (angulo1 + angulo2 + angulo3 < 180 && angulo1 + angulo2 + angulo3 > 0 || angulo1 + angulo2 + angulo3 > 180) {
   console.log('False');
-}
-else if (angulo1 || angulo2 || angulo3 < 0) {
-  console.log('Valor inválido');
-}
-else {
-  console.log('.');
 }
