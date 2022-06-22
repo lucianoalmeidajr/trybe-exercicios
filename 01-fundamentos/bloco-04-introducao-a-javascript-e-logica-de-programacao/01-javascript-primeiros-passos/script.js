@@ -121,3 +121,16 @@ if (grade < 0 || grade > 100) {
 } else if (grade < 50) {
   console.log('F');
 }
+
+// Programa 8
+
+const n1 = 1;
+const n2 = 2;
+const n3 = 3;
+
+let isEven =  false;
+
+if ((n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0)) {
+  isEven = true;
+};
+console.log(isEven);
