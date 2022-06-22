@@ -134,3 +134,16 @@ if ((n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0)) {
   isEven = true;
 };
 console.log(isEven);
+
+// Programa 9
+
+const n1 = 1;
+const n2 = 2;
+const n3 = 3;
+
+let isOdd = false;
+
+if ((n1 % 2 !== 0 || n2 % 2 !== 0 || n3 % 2 !== 0)) {
+  isOdd = true;
+}
+console.log(isOdd);
