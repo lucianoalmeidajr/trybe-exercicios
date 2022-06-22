@@ -101,3 +101,23 @@ switch (pecaXadrez.toLowerCase()) {
     console.log("[ERRO] Essa peça não existe no Xadrez");
     break;
 }
+
+// Programa 7
+
+let grade = 99;
+
+if (grade < 0 || grade > 100) {
+  console.log('[ERRO] Nota incorreta');
+} else if (grade >= 90) {
+  console.log('A');
+} else if (grade >= 80) {
+  console.log('B');
+} else if (grade >= 70) {
+  console.log('C');
+} else if (grade >= 60) {
+  console.log('D');
+} else if (grade >= 50) {
+  console.log('E');
+} else if (grade < 50) {
+  console.log('F');
+}
