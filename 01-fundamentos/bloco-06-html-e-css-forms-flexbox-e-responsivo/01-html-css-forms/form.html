@@ -10,50 +10,67 @@
 </head>
 
 <body>
-    <header>
+    <header class="trybetrip-header">
         <h1>TrybeTrip</h1>
+        <p>A Trybe te leva para viajar!</p>
     </header>
     <main>
-        <section>
-            <form action="" method="get">
-                <div>
-                    <label for="full-name">Nome: </label>
-                    <input type="text" name="Nome" id="full-name">
+        <form action="" method="get" class="trybetrip-form">
+            <section class="form-content">
+                <div class="line-content">
+                    <label for="full-name">Nome:</label>
+                    <input type="text" name="full-name" id="full-name">
                 </div>
-                <div>
-                    <label for="email">Email: </label>
+                <div class="line-content">
+                    <label for="email">Email:</label>
                     <input type="email" name="Nome" id="email">
                 </div>
-                <div>
-                    <input type="radio" name="Opções" id="option-1" checked> Opção 1
-                    <input type="radio" name="Opções" id="option-2"> Opção 2
-                    <input type="radio" name="Opções" id="option-3"> Opção 3
-                    <input type="radio" name="Opções" id="option-4"> Opção 4
+                <div class="line-content">
+                    <fieldset>
+                        <legend>Escolha seu destino</legend>
+
+                        <input type="radio" name="opcoes-viagem" id="option-1" checked>
+                        <label for="option-1">Brasil</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-2">
+                        <label for="option-2">Portugal</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-3">
+                        <label for="option-3">EUA</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-4">
+                        <label for="option-4">Espanha</label>
+                    </fieldset>
                 </div>
-                <div>
-                    <span>Espaço para digitar a reposta:</span>
-                    <textarea name="Resposta" id="answer" cols="30" rows="10"></textarea>
+                <div class="line-content">
+                    <label for="resposta">Espaço para digitar a reposta:</label>
+                    <textarea name="resposta" id="resposta" cols="30" rows="10">
+
+                    </textarea>
                 </div>
-                <div>
+                <div class="line-content">
                     <label for="date">Data: </label>
                     <input type="date" name="Data" id="date">
                 </div>
-                <div>
+                <div class="line-content">
                     <label for="agreement-1">
-                        Concordo 1 <input type="checkbox" name="Concordo 1" id="agreement-1">
+                        <input type="checkbox" name="Concordo 1" id="agreement-1" value="agree-ok">
+                        <span>Concordo 1</span>
                     </label>
                 </div>
-                <div>
+                <div class="line-content">
                     <label for="agreement-2">
-                        Concordo 2 <input type="checkbox" name="Concordo 1" id="agreement-2">
+                        <input type="checkbox" name="Concordo 1" id="agreement-2" value="agree-ok">
+                        <span>Concordo 2</span>
                     </label>
                 </div>
-            </form>
-            <div>
-                <button type="submit">Enviar</button>
-                <button type="reset">Apagar</button>
-            </div>
-        </section>
+                <div class="line-content">
+                    <button class="btn-enviar" type="submit">Enviar</button>
+                    <button class="btn-limpar" type="reset">Apagar</button>
+                </div>
+            </section>
+        </form>
+
     </main>
     <footer>
         <span>Todos os direitos reservados © <a href="https://betrybe.com" target="_blank">Trybe</a></span>
