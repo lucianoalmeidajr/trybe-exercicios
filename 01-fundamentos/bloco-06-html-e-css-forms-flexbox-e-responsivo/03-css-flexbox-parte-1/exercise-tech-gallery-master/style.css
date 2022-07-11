@@ -18,17 +18,26 @@
   margin-left: 10px;
 }
 
-header {
-  background-color: #323433;
+.header-container {
+  background-color: #323333;
   color: #d3dad8;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.subtitle {
+.text-section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 20px 0;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto 13px auto;
+  width: 50%;
 }
