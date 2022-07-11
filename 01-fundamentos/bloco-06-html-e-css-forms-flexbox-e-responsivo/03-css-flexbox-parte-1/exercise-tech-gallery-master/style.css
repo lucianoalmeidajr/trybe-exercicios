@@ -41,3 +41,36 @@
   margin: 10px auto 13px auto;
   width: 50%;
 }
+
+.gallery-card {
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+hr {
+  margin-top: 10px;
+  width: 25%;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
