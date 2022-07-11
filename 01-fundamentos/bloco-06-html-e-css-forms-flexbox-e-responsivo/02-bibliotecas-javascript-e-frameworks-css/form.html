@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+    <header class="trybetrip-header">
+        <h1 class="display-4">TrybeTrip</h1>
+        <p>A Trybe te leva para viajar!</p>
+    </header>
+    <main class="trybetrip-form">
+        <form action="" method="get">
+            <section class="form-content">
+                <div class="line-content">
+                    <label for="full-name">Nome:</label>
+                    <input type="text" name="full-name" id="full-name">
+                </div>
+                <div class="line-content">
+                    <label for="email">Email:</label>
+                    <input type="email" name="Nome" id="email">
+                </div>
+                <div class="line-content">
+                    <fieldset>
+                        <legend>Escolha seu destino</legend>
+
+                        <input type="radio" name="opcoes-viagem" id="option-1" checked>
+                        <label for="option-1">Brasil</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-2">
+                        <label for="option-2">Portugal</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-3">
+                        <label for="option-3">EUA</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-4">
+                        <label for="option-4">Espanha</label>
+                    </fieldset>
+                </div>
+                <div class="line-content">
+                    <label for="resposta">Espaço para digitar a reposta:</label>
+                    <textarea name="resposta" id="resposta" cols="30" rows="10">
+
+                    </textarea>
+                </div>
+                <div class="line-content">
+                    <label for="date">Data: </label>
+                    <input type="date" name="Data" id="date">
+                </div>
+                <div class="line-content">
+                    <label for="agreement-1">
+                        <input type="checkbox" name="Concordo 1" id="agreement-1" value="agree-ok">
+                        <span>Concordo 1</span>
+                    </label>
+                </div>
+                <div class="line-content">
+                    <label for="agreement-2">
+                        <input type="checkbox" name="Concordo 1" id="agreement-2" value="agree-ok">
+                        <span>Concordo 2</span>
+                    </label>
+                </div>
+                <div class="line-content btn">
+                    <button class="btn-enviar">Enviar</button>
+                    <button class="btn-limpar">Apagar</button>
+                </div>
+            </section>
+        </form>
+
+    </main>
+    <footer>
+        <span>Todos os direitos reservados © <a href="https://betrybe.com" target="_blank">Trybe</a></span>
+    </footer>
+</body>
+
+</html>

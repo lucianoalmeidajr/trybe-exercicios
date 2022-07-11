@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2fc18c;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.trybetrip-header {
+  text-align: center;
+  color: white;
+  background-color: #036b52;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 50px;
+}
+
+.trybetrip-header h1 {
+  margin-bottom: 40px;
+}
+
+.trybetrip-form {
+  background-color: #036b52;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 50px;
+}
+
+.form-content {
+  margin-bottom: 40px;
+}
+
+.form-content input[type="text"],
+.form-content input[type="email"],
+textarea {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.form-content label {
+  margin-bottom: 15px;
+}
+
+.line-content {
+  margin: 20px;
+  border: 0 none;
+}
+
+fieldset {
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-enviar {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #5995da;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #76aeed;
+}
+
+.btn-limpar {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: gray;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.btn-limpar:hover {
+  background-color: rgb(168, 168, 168);
+}
+btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+    <header class="trybetrip-header">
+        <h1>TrybeTrip</h1>
+        <p>A Trybe te leva para viajar!</p>
+    </header>
+    <main>
+        <form action="" method="get" class="trybetrip-form">
+            <section class="form-content">
+                <div class="line-content">
+                    <label for="full-name">Nome:</label>
+                    <input type="text" name="full-name" id="full-name">
+                </div>
+                <div class="line-content">
+                    <label for="email">Email:</label>
+                    <input type="email" name="Nome" id="email">
+                </div>
+                <div class="line-content">
+                    <fieldset>
+                        <legend>Escolha seu destino</legend>
+
+                        <input type="radio" name="opcoes-viagem" id="option-1" checked>
+                        <label for="option-1">Brasil</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-2">
+                        <label for="option-2">Portugal</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-3">
+                        <label for="option-3">EUA</label>
+
+                        <input type="radio" name="opcoes-viagem" id="option-4">
+                        <label for="option-4">Espanha</label>
+                    </fieldset>
+                </div>
+                <div class="line-content">
+                    <label for="resposta">Espaço para digitar a reposta:</label>
+                    <textarea name="resposta" id="resposta" cols="30" rows="10">
+
+                    </textarea>
+                </div>
+                <div class="line-content">
+                    <label for="date">Data: </label>
+                    <input type="date" name="Data" id="date">
+                </div>
+                <div class="line-content">
+                    <label for="agreement-1">
+                        <input type="checkbox" name="Concordo 1" id="agreement-1" value="agree-ok">
+                        <span>Concordo 1</span>
+                    </label>
+                </div>
+                <div class="line-content">
+                    <label for="agreement-2">
+                        <input type="checkbox" name="Concordo 1" id="agreement-2" value="agree-ok">
+                        <span>Concordo 2</span>
+                    </label>
+                </div>
+                <div class="line-content">
+                    <button class="btn-enviar" type="submit">Enviar</button>
+                    <button class="btn-limpar" type="reset">Apagar</button>
+                </div>
+            </section>
+        </form>
+
+    </main>
+    <footer>
+        <span>Todos os direitos reservados © <a href="https://betrybe.com" target="_blank">Trybe</a></span>
+    </footer>
+</body>
+
+</html>
